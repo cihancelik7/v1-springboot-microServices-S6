@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to Maze Bank Accounts related prod APIs"
+  contactDetails:
+    name: "Kaan Cankaya - Product Owner"
+    email: "kaan.cankaya@gmail.com"
+  onCallSupport:
+    - (545)672-2457
+    - (547)651-8942

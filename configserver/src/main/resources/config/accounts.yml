@@ -1,0 +1,12 @@
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to Maze Bank Accounts related local APIs"
+  contactDetails:
+    name: "Cihan Celik - Developer"
+    email: "cihan.celik7@gmail.com"
+  onCallSupport:
+   - (533)582-1616
+   - (532)270-1616
+

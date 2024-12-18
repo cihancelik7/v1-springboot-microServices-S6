@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+loans:
+  message: "Welcome to Maze Bank Loans related QA APIs"
+  contactDetails:
+    name: "Mehmet Ali Kilinc - Qa Lead"
+    email: "mehmetali@gmail.com"
+  onCallSupport:
+    - (555)342-1964
+    - (544)430-1146
