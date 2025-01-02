@@ -2,14 +2,21 @@ spring:
   application:
     name: "configserver"
   profiles:
-    active: native
+    active: git
+    #active: native
   cloud:
     config:
       server:
-        native:
-         #search-loactions: "classpath:/config"
-         search-locations: "file:///Users//cihancelik//config"
-
+        git:
+          uri: "https://github.com/cihancelik7/mazebank-config.git"
+          default-label: main
+          clone-on-start: true
+          force-pull: true
+          timeout: 5
+      # search-locations: "file:///Users//cihancelik//config"
 
 server:
   port: 8071
+
+
+
