@@ -12,12 +12,6 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @SpringBootApplication
-/*
-@ComponensScans({@ComponensScan("com.cihancelik.accounts.controller")})
-@EnableJpaRepositories("com.cihancelik.accounts.repository")
-@EntityScan("com.cihancelik.accounts.model")
-@EnableJpaAuditing(auditorAwareRef = "auditAwareImpl")
- */
 @EnableConfigurationProperties(value = AccountsContactInfoDto.class)
 @EnableJpaAuditing(auditorAwareRef = "auditAwareImpl")
 @OpenAPIDefinition(

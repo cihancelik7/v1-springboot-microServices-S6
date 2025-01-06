@@ -3,12 +3,15 @@ package com.cihancelik.cards.dto;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.http.HttpStatus;
 
 import java.time.LocalDateTime;
 
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
+
 @Schema(
         name = "ErrorResponse",
         description = "Schema To Hold Error Response Information"

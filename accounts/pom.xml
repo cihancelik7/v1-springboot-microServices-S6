@@ -29,7 +29,7 @@
     </scm>
     <properties>
         <java.version>17</java.version>
-        <spring-cloud.version>2023.0.2</spring-cloud.version>
+        <spring-cloud.version>2023.0.3</spring-cloud.version>
     </properties>
     <dependencies>
         <dependency>
@@ -101,17 +101,18 @@
     <build>
         <plugins>
 
+            <!-- Jib Plugin Eklendi -->
             <plugin>
                 <groupId>com.google.cloud.tools</groupId>
                 <artifactId>jib-maven-plugin</artifactId>
-                <version>3.4.4</version>
+                <version>3.4.2</version>
                 <configuration>
                     <to>
-                        <image>cihan0203/${project.artifactId}:s6</image>
+                        <image>cihan0203/accounts:s6</image>
                     </to>
                 </configuration>
             </plugin>
+
         </plugins>
     </build>
-
 </project>

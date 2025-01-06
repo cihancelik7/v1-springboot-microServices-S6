@@ -7,13 +7,13 @@ import org.springframework.http.HttpStatus;
 
 import java.time.LocalDateTime;
 
-@Data @AllArgsConstructor
+@Data
+@AllArgsConstructor
 @Schema(
         name = "Error Response",
         description = "Schema To Hold Error Response Information"
 )
 public class ErrorResponseDto {
-
     @Schema(
             description = "API Path Invoked By Client"
     )
